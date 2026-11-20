@@ -1,0 +1,10 @@
+{
+  "type": "largestructlib:multi",
+  "biomes": "#minecraft:is_overworld",
+  "step": "raw_generation",
+  "spawn_overrides": {},
+  "structures": [
+    "testing:density",
+    "testing:village"
+  ]
+}

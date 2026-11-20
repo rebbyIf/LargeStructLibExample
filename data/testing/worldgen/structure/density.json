@@ -1,0 +1,336 @@
+{
+  "type": "largestructlib:density_based",
+  "biomes": "#minecraft:is_overworld",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "min_y": 0,
+  "max_y": 256,
+  "factor": 3,
+  "density_function": "minecraft:y",
+  "values": {
+    "h": {
+      "type": "largestructlib:multi_noise",
+      "minimum": 0.0,
+      "maximum": 100.0,
+      "frequencies": [
+        {
+          "density_function": "testing:depth",
+          "minimum": -10.0,
+          "maximum": -0.2
+        }
+      ]
+    },
+    "o": {
+      "type": "largestructlib:multi_noise",
+      "minimum": 0.0,
+      "maximum": 100.0,
+      "frequencies": [
+        {
+          "density_function": "testing:depth",
+          "minimum": -0.2,
+          "maximum": 0.0
+        }
+      ]
+    },
+    "-": {
+      "type": "largestructlib:multi_noise",
+      "minimum": 0.0,
+      "maximum": 100.0,
+      "frequencies": [
+        {
+          "density_function": "testing:depth",
+          "minimum": 0.0,
+          "maximum": 10.0
+        }
+      ]
+    }
+  },
+  "structures": [
+    {
+      "type": "largestructlib:layered",
+      "name": "Grand Pillar",
+      "base_elements": "testing:density/l",
+      "middle_elements": "testing:density/l",
+      "top_elements": "testing:density/l",
+      "bounding_size": [6,2,6],
+      "location": [0,0,0],
+      "size": [6,6,6],
+      "min_y": 0,
+      "max_y": 6,
+      "rarity": 0.5,
+      "grid": [
+        "o","o","o","o","o","o",
+        "o","o","o","o","o","o",
+        "o","o","o","o","o","o",
+        "o","o","o","o","o","o",
+        "o","o","o","o","o","o",
+        "o","o","o","o","o","o",
+
+        "h","h","h","h","h","h",
+        "h","h","h","h","h","h",
+        "h","h","h","h","h","h",
+        "h","h","h","h","h","h",
+        "h","h","h","h","h","h",
+        "h","h","h","h","h","h"
+      ]
+    },
+    {
+      "type": "largestructlib:layered",
+      "name": "Grand Pillar",
+      "base_elements": "testing:density/l",
+      "middle_elements": "testing:density/l",
+      "top_elements": "testing:density/l",
+      "bounding_size": [6,2,6],
+      "location": [0,0,0],
+      "size": [6,6,6],
+      "min_y": 0,
+      "max_y": 6,
+      "rarity": 0.5,
+      "y_offset": 1,
+      "grid": [
+        "o","o","o","o","o","o",
+        "o","o","o","o","o","o",
+        "o","o","o","o","o","o",
+        "o","o","o","o","o","o",
+        "o","o","o","o","o","o",
+        "o","o","o","o","o","o",
+
+        "h","h","h","h","h","h",
+        "h","h","h","h","h","h",
+        "h","h","h","h","h","h",
+        "h","h","h","h","h","h",
+        "h","h","h","h","h","h",
+        "h","h","h","h","h","h"
+      ]
+    },
+    {
+      "type": "largestructlib:layered",
+      "name": "Grand Pillar",
+      "base_elements": "testing:density/l",
+      "middle_elements": "testing:density/l",
+      "top_elements": "testing:density/l",
+      "bounding_size": [6,2,6],
+      "location": [0,0,0],
+      "size": [6,6,6],
+      "min_y": 0,
+      "max_y": 6,
+      "rarity": 0.5,
+      "y_offset": 2,
+      "grid": [
+        "o","o","o","o","o","o",
+        "o","o","o","o","o","o",
+        "o","o","o","o","o","o",
+        "o","o","o","o","o","o",
+        "o","o","o","o","o","o",
+        "o","o","o","o","o","o",
+
+        "h","h","h","h","h","h",
+        "h","h","h","h","h","h",
+        "h","h","h","h","h","h",
+        "h","h","h","h","h","h",
+        "h","h","h","h","h","h",
+        "h","h","h","h","h","h"
+      ]
+    },
+    {
+      "type": "largestructlib:layered",
+      "name": "Grand Pillar",
+      "base_elements": "testing:density/l",
+      "middle_elements": "testing:density/l",
+      "top_elements": "testing:density/l",
+      "bounding_size": [6,2,6],
+      "location": [0,0,0],
+      "size": [6,6,6],
+      "min_y": 0,
+      "max_y": 6,
+      "rarity": 0.5,
+      "y_offset": 3,
+      "grid": [
+        "o","o","o","o","o","o",
+        "o","o","o","o","o","o",
+        "o","o","o","o","o","o",
+        "o","o","o","o","o","o",
+        "o","o","o","o","o","o",
+        "o","o","o","o","o","o",
+
+        "h","h","h","h","h","h",
+        "h","h","h","h","h","h",
+        "h","h","h","h","h","h",
+        "h","h","h","h","h","h",
+        "h","h","h","h","h","h",
+        "h","h","h","h","h","h"
+      ]
+    },
+    {
+      "type": "largestructlib:layered",
+      "name": "Grand Pillar",
+      "base_elements": "testing:density/l",
+      "middle_elements": "testing:density/l",
+      "top_elements": "testing:density/l",
+      "bounding_size": [6,2,6],
+      "location": [0,0,0],
+      "size": [6,6,6],
+      "min_y": 0,
+      "max_y": 6,
+      "rarity": 0.5,
+      "y_offset": 4,
+      "grid": [
+        "o","o","o","o","o","o",
+        "o","o","o","o","o","o",
+        "o","o","o","o","o","o",
+        "o","o","o","o","o","o",
+        "o","o","o","o","o","o",
+        "o","o","o","o","o","o",
+
+        "h","h","h","h","h","h",
+        "h","h","h","h","h","h",
+        "h","h","h","h","h","h",
+        "h","h","h","h","h","h",
+        "h","h","h","h","h","h",
+        "h","h","h","h","h","h"
+      ]
+    },
+    {
+      "type": "largestructlib:layered",
+      "name": "Grand Pillar",
+      "base_elements": "testing:density/l",
+      "middle_elements": "testing:density/l",
+      "top_elements": "testing:density/l",
+      "bounding_size": [6,2,6],
+      "location": [0,0,0],
+      "size": [6,6,6],
+      "min_y": 0,
+      "max_y": 6,
+      "rarity": 0.5,
+      "y_offset": 5,
+      "grid": [
+        "o","o","o","o","o","o",
+        "o","o","o","o","o","o",
+        "o","o","o","o","o","o",
+        "o","o","o","o","o","o",
+        "o","o","o","o","o","o",
+        "o","o","o","o","o","o",
+
+        "h","h","h","h","h","h",
+        "h","h","h","h","h","h",
+        "h","h","h","h","h","h",
+        "h","h","h","h","h","h",
+        "h","h","h","h","h","h",
+        "h","h","h","h","h","h"
+      ]
+    },
+    {
+      "type": "largestructlib:default",
+      "name": "L",
+      "elements": "testing:density/l",
+      "bounding_size": [8,8,8],
+      "size": [6,6,6],
+      "location": [1,1,1],
+      "grid": [
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o",
+        "o","o","o","o","o","o","o","o"
+      ]
+    },
+    {
+      "type": "largestructlib:default",
+      "name": "O",
+      "elements": "testing:density/o",
+      "bounding_size": [1,2,1],
+      "location": [0,0,0],
+      "grid": [
+        "o",
+        "h"
+      ]
+    },
+    {
+      "type": "largestructlib:default",
+      "name": "O",
+      "elements": "testing:density/o",
+      "bounding_size": [1,2,1],
+      "location": [0,0,0],
+      "grid": [
+        "-",
+        "o"
+      ]
+    },
+    {
+      "type": "largestructlib:default",
+      "name": "H",
+      "elements": "testing:density/h",
+      "bounding_size": [1,1,1],
+      "location": [0,0,0],
+      "grid": [
+        "o"
+      ]
+    }
+  ]
+}

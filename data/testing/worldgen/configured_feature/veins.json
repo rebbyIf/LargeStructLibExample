@@ -1,0 +1,55 @@
+{
+  "type": "largestructlib:density_sampler",
+  "config": {
+    "function": "testing:veins",
+    "samples": [
+      {
+        "minimum": -0.04,
+        "maximum": 0.0,
+        "state_provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 2,
+              "data": {
+                "Name": "minecraft:azalea_leaves",
+                "Properties": {
+                  "persistent": "true"
+                }
+              }
+            },
+            {
+              "weight": 2,
+              "data": {
+                "Name": "minecraft:flowering_azalea_leaves",
+                "Properties": {
+                  "persistent": "true"
+                }
+              }
+            },
+            {
+              "weight": 2,
+              "data": {
+                "Name": "minecraft:air"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "minimum": -0.08,
+        "maximum": -0.04,
+        "state_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:oak_log",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        }
+      }
+    ]
+  }
+
+}

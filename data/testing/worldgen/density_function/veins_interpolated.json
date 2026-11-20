@@ -1,0 +1,8 @@
+{
+  "type": "largestructlib:interpolate",
+  "dx": 10,
+  "dy": 10,
+  "dz": 10,
+  "interpolation": "floor",
+  "input": "testing:veins"
+}

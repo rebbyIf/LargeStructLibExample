@@ -1,0 +1,56 @@
+{
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "testing:o",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "projection": "rigid",
+        "feature": {
+          "feature": {
+            "config": {},
+            "type": "minecraft:desert_well"
+          },
+          "placement": []
+        }
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:list_pool_element",
+        "projection": "rigid",
+        "elements": [
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "testing:o",
+            "processors": "minecraft:empty",
+            "override_liquid_settings": "ignore_waterlogging"
+          },
+          {
+            "element_type": "minecraft:feature_pool_element",
+            "projection": "rigid",
+            "feature": {
+              "feature": {
+                "config": {},
+                "type": "minecraft:desert_well"
+              },
+              "placement": []
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

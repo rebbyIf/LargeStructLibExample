@@ -1,0 +1,12 @@
+{
+  "placement": {
+    "type": "largestructlib:grid",
+    "salt": 10387312
+  },
+  "structures": [
+    {
+      "structure": "testing:density",
+      "weight": 1
+    }
+  ]
+}
